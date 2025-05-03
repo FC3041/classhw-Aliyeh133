@@ -35,7 +35,7 @@ class Program
         ValueTuple<string,int> t5 = new ValueTuple<string,int>("Yes",7); // this id value type but the others are reference type !
         Console.WriteLine($"{t5.Item1} is {t5.Item2}");
 
-        List<int> nums = new List<int> {2,5,7,9,10,0};
+        List<int> nums = new List<int> {2,5,7,9,10,0,7};
         Console.WriteLine(AnalyzeList(nums));
 
     }
